@@ -1,0 +1,86 @@
+// styles/MapPanel.scss
+/* MAP PANEL - CHECKBOX */
+.panel {
+
+  /* MAP PANEL - TABS */
+  .nav-tabs,
+  .nav-tabs li a {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+  }
+
+  .nav-tabs li {
+    width: 50%;
+  }
+
+  .nav-tabs li a {
+    border: none;
+    border-radius: 0px;
+  }
+
+  .nav-tabs .active {
+    background-color: #bbe7c6 !important;
+    color: #29423c !important;
+  }
+
+  /* MAP PANEL - CHECKBOX */
+  &_check-input {
+    width: 1.375em;
+    height: 1.375em;
+    border: 1px solid #d0d0c9;
+    border-radius: 5px;
+    background-color: #ffffff !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    appearance: none;
+  }
+
+  &_check-input:checked {
+    background-color: #bbe7c6 !important;
+    border-color: #bbe7c6 !important;
+  }
+
+  &_check-input:checked[type=checkbox] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' stroke-width='3' fill='%2329423c'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z'/%3E%3C/svg%3E");
+  }
+
+  /* MAP PANEL - SELECT */
+  &_select {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+  }
+
+  .selected-activities,
+  .selected-techniques,
+  .selected-productions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+  }
+
+  .selected-activity,
+  .selected-technique,
+  .selected-production {
+    display: flex;
+    align-items: center;
+    background-color: #bbe7c6;
+    color: #29423c;
+    padding: 5px;
+    border-radius: 4px;
+  }
+
+  .selected-activity button,
+  .selected-technique button,
+  .selected-production button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+}

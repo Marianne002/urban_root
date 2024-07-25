@@ -1,0 +1,27 @@
+// styles/Navbar.scss
+.navbar {
+  background-color: #29423c;
+  transition: background-color 0.3s ease;
+  color: white !important;
+}
+
+.navbar.scrolled {
+  background-color: #29423c;
+}
+
+.show {
+  height: 100vh;
+}
+
+.navbar-img-user {
+  border: none;
+  width: 40px;
+  background-color: transparent;
+  cursor: pointer;
+  object-fit: cover;
+  border-radius: 50%;
+
+  img {
+    width: 40px;
+  }
+}

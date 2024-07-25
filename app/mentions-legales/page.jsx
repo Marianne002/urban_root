@@ -34,14 +34,14 @@ const MentionsLegales = () => {
                     <strong>Téléphone :</strong> 01 02 03 04 05
                 </p>
                 <p>
-                    <strong>Mail :</strong> gdj.mailpro@gmail.com
+                    <strong>Mail :</strong> agence.lavender@gmail.com
                 </p>
                 {/* End Editeur */}
 
                 {/* Responsable publication */}
                 <h2 className="pt-4">Responsable publication</h2>
                 <p>
-                    <strong>Marianne Grandjean</strong>
+                    <strong>Agence Lavender</strong>
                 </p>
                 {/* End Responsable publication */}
 

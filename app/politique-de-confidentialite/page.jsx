@@ -167,7 +167,7 @@ const PolitiqueConfidentialite = () => {
                 >
                     <h2 id="vos-choix-et-droits-heading">5. Vos choix et droits</h2>
                     <p>
-                        Vous pouvez accéder à vos informations personnelles, les mettre à jour, ou demander leur suppression en nous contactant à <strong>gdj.mailpro@gmail.com</strong>.
+                        Vous pouvez accéder à vos informations personnelles, les mettre à jour, ou demander leur suppression en nous contactant à <strong>agence.lavender@gmail.com</strong>.
                     </p>
                 </article>
                 {/* End Vos choix et droits */}
@@ -193,7 +193,7 @@ const PolitiqueConfidentialite = () => {
                 >
                     <h2 id="contact-heading">7. Contact</h2>
                     <p>
-                        Si vous avez des questions concernant cette politique de confidentialité ou les pratiques de Urban Root en matière de confidentialité, veuillez nous contacter à <strong>gdj.mailpro@gmail.com</strong>.
+                        Si vous avez des questions concernant cette politique de confidentialité ou les pratiques de Urban Root en matière de confidentialité, veuillez nous contacter à <strong>agence.lavender@gmail.com</strong>.
                     </p>
                 </article>
                 {/* End Contact */}

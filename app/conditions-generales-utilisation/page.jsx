@@ -17,7 +17,7 @@ const CGU = () => {
                 <h1>Conditions Générales d'Utilisation</h1>
 
                 <p>
-                    Les présentes Conditions Générales d'Utilisation (ci-après "CGU") régissent l'utilisation de la plateforme Urban Root (ci-après "la Plateforme"), propriété de Marianne Grandjean. <br /> En accédant à la Plateforme ou en l'utilisant de quelque manière que ce soit, vous acceptez d'être lié par ces CGU.
+                    Les présentes Conditions Générales d'Utilisation (ci-après "CGU") régissent l'utilisation de la plateforme Urban Root (ci-après "la Plateforme"), propriété de l'Agence Lavender. <br /> En accédant à la Plateforme ou en l'utilisant de quelque manière que ce soit, vous acceptez d'être lié par ces CGU.
                 </p>
                 <p>
                     Si vous n'acceptez pas ces CGU, veuillez ne pas accéder à la Plateforme ni l'utiliser.
@@ -198,7 +198,7 @@ const CGU = () => {
                         Les présentes CGU sont régies par le droit français.
                     </p>
                     <p>
-                        Pour toute question concernant ces CGU, veuillez nous contacter à <strong>gdj.mailpro@gmail.com</strong>.
+                        Pour toute question concernant ces CGU, veuillez nous contacter à <strong>agence.lavender@gmail.com</strong>.
                     </p>
                     <p>
                         <b>Dernière mise à jour :</b> 25 juillet 2024

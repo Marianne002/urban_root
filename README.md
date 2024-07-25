@@ -192,7 +192,7 @@ urban_root/
 [Tiptap](https://tiptap.dev/) : Éditeur de texte riche basé sur ProseMirror pour React.
 
 
-## Configutation
+## Configuration
 
 ### Développement
 1. Clônez le dépôt depuis Github.

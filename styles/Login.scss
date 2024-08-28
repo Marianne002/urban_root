@@ -92,12 +92,14 @@
     text-align: center;
   }
 
-  .rs {
+  .rs, 
+  .rs:hover {
     width: 104px;
     height: 48px;
     border: 2px solid white;
     border-radius: 8px;
-    background: transparent;
+    background: transparent !important;
+    margin: 0 auto;
   }
 
   .error,

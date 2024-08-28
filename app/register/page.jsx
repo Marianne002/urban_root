@@ -3,7 +3,7 @@
 import "@styles/Login.scss";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { signIn } from "next-auth/react"; // Import de signIn pour la connexion automatique
+import { signIn } from "next-auth/react";
 
 const RegisterPage = () => {
   const [step, setStep] = useState(1);
@@ -229,6 +229,18 @@ const RegisterPage = () => {
                 <button className="btn" type="button" onClick={handleNextStep}>
                   Suivant
                 </button>
+                <div className="d-flex flex-column">
+                  <div className="login_content_continue">
+                    <div></div>
+                    <p className="p-0 px-3 m-0">Ou continuez avec</p>
+                    <div></div>
+                  </div>
+                  <div className="login_content_social gap-3">
+                    <button className="rs" onClick={() => signIn('google')}>
+                      <img src="/assets/icon-google.svg" alt="Icon Google" />
+                    </button>
+                  </div>
+                </div>
                 <a href="/login">Vous avez déjà un compte ? Se connecter</a>
               </>
             )}

@@ -62,9 +62,21 @@ const handler = NextAuth({
                     await connectToDB();
                     let user = await User.findOne({ email: profile.email });
                     if (!user) {
+                        // Generate a unique username
+                        let username = profile.name;
+                        let userExists = await User.findOne({ username });
+        
+                        let suffix = 1;
+                        while (userExists) {
+                            username = `${profile.name}${suffix}`;
+                            userExists = await User.findOne({ username });
+                            suffix++;
+                        }
+        
+                        // Create a new user
                         user = await User.create({
                             email: profile.email,
-                            username: profile.name,
+                            username: username,
                             profileImagePath: profile.picture,
                             googleId: profile.sub,
                         });
@@ -76,7 +88,13 @@ const handler = NextAuth({
                 }
             }
             return true;
-        },
+        },        
+        async redirect({ url, baseUrl }) {
+            if (url === '/api/auth/signin/google') {
+                return '/';
+            }
+            return baseUrl;
+        }
     }
 });
 

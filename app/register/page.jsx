@@ -161,7 +161,7 @@ const RegisterPage = () => {
       />
       <meta
         name="keywords"
-        content="inscription, compte,  rejoindre Urban Root, créer un compte Urban Root"
+        content="inscription, compte, rejoindre Urban Root, créer un compte Urban Root"
       />
 
       <div className="login">
@@ -236,7 +236,14 @@ const RegisterPage = () => {
                     <div></div>
                   </div>
                   <div className="login_content_social gap-3">
-                    <button className="rs" onClick={() => signIn('google')}>
+                    <button 
+                        className="rs" 
+                        onClick={(e) => {
+                          e.preventDefault();
+                          signIn("google");
+                        }}
+                        aria-label="Connexion avec Google"
+                      >
                       <img src="/assets/icon-google.svg" alt="Icon Google" />
                     </button>
                   </div>
@@ -248,7 +255,7 @@ const RegisterPage = () => {
               <>
                 <h1 className="gradient-color">Informations</h1>
                 <div>
-                  <label className="d-none">Image de profil</label>
+                  <label>Image de profil</label>
                   <input
                     type="file"
                     name="profileImage"

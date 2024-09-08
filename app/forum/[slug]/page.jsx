@@ -170,7 +170,7 @@ const Topic = ({ params }) => {
                           <span>{topic.title}</span>
                         </a>
                         <small>
-                          • il y a{" "}
+                          • {" "}
                           {formatDistanceToNow(new Date(post.createdAt), {
                             locale: fr,
                           })}

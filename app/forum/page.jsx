@@ -152,7 +152,7 @@ const Forum = () => {
             </div>
           </div>
           <div className="col-12 col-lg-8 order-lg-first">
-            <div className="mb-4">
+            {/* <div className="mb-4">
               <input
                 type="text"
                 className="form-control"
@@ -160,7 +160,7 @@ const Forum = () => {
                 value={searchQuery}
                 onChange={handleSearchChange}
               />
-            </div>
+            </div> */}
             {currentPosts.length > 0 ? (
               <>
                 <ul className="d-flex flex-column gap-3">
@@ -201,7 +201,7 @@ const Forum = () => {
                             {renderContent(post.content)}
                           </div>
                         </div>
-                        <div className="card-footer">
+                        {/* <div className="card-footer">
                           <button
                             className="btn btn-secondary"
                             onClick={() =>
@@ -214,7 +214,7 @@ const Forum = () => {
                             <img src="/assets/icon-share.svg" alt="Partager" className="me-2" style={{ width: "1rem" }} />
                             Partager
                           </button>
-                        </div>
+                        </div> */}
                       </li>
                     );
                   })}
